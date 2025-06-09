@@ -1,131 +1,161 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nos Formations Professionnelles – FRANS COMPANY</title>
+  <title>Formations – FRANS COMPANY</title>
+  <link rel="icon" href="logo.png.png" type="image/png">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
       margin: 0;
       padding: 0;
+      background: #f9f9f9;
       color: #333;
     }
+
     header {
       background-color: #004080;
       color: white;
-      padding: 30px 20px;
       text-align: center;
+      padding: 30px 20px;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2.5em;
+      font-size: 32px;
+      margin-bottom: 10px;
     }
+
+    nav {
+      background-color: #002d5a;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     main {
       max-width: 1000px;
-      margin: 40px auto;
+      margin: 30px auto;
       padding: 20px;
-      background: white;
+      background-color: white;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    section {
-      margin-bottom: 40px;
-    }
+
     h2 {
       color: #004080;
-      font-size: 1.8em;
-      border-bottom: 2px solid #004080;
-      padding-bottom: 5px;
+      margin-top: 40px;
     }
+
     .formation {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
+
     .formation img {
       width: 100%;
-      max-height: 250px;
+      max-height: 300px;
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 10px;
       margin-top: 10px;
     }
-    .button-container {
-      text-align: center;
-      margin-top: 30px;
-    }
-    .button-container a {
+
+    .btn {
       display: inline-block;
-      margin: 10px;
-      padding: 12px 24px;
+      margin: 20px 10px 0 0;
+      padding: 10px 20px;
       background-color: #004080;
       color: white;
+      border: none;
+      border-radius: 5px;
       text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
+      font-size: 16px;
     }
-    .button-container a:hover {
+
+    .btn:hover {
       background-color: #0066cc;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Nos Formations Professionnelles</h1>
-</header>
+  <header>
+    <h1>Nos Formations Professionnelles</h1>
+    <p>FRANS COMPANY vous forme avec passion et rigueur pour un avenir meilleur.</p>
+  </header>
 
-<main>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="formations.html">Formations</a>
+    <a href="#contact">Inscription gratuite</a>
+  </nav>
 
-  <section class="formation">
-    <h2>1. Langues (Français, Anglais, Swahili, Lingala)</h2>
-    <p>Développez vos compétences linguistiques pour mieux communiquer dans un monde globalisé. Formation axée sur la pratique, la conversation et l’accompagnement personnalisé.</p>
-    <img src="langues_africains.jpg" alt="Formation en langues">
-  </section>
+  <main>
+    <section class="formation">
+      <h2>1. Langues (Français, Anglais, Swahili, Lingala)</h2>
+      <p>Développez votre maîtrise des langues locales et internationales pour augmenter vos opportunités dans les domaines de l'éducation, du voyage et du business. Certification immédiate après la formation. Suivi personnalisé assuré.</p>
+      <img src="langues_africains.jpg" alt="Langues">
+    </section>
 
-  <section class="formation">
-    <h2>2. Coaching motivationnel & développement personnel</h2>
-    <p>Renforcez votre confiance en vous, fixez vos objectifs de vie et libérez votre potentiel avec l’accompagnement de nos coachs expérimentés.</p>
-    <img src="coaching_africain.jpg" alt="Coaching motivationnel">
-  </section>
+    <section class="formation">
+      <h2>2. Coaching motivationnel et développement personnel</h2>
+      <p>Renforcez votre confiance, vos habitudes de succès et votre leadership. Notre approche transforme les blocages en moteurs de croissance. Certification immédiate après la formation. Suivi personnalisé assuré.</p>
+      <img src="coaching_africain.jpg" alt="Coaching">
+    </section>
 
-  <section class="formation">
-    <h2>3. Services numériques et informatiques</h2>
-    <p>Maîtrisez les outils numériques essentiels, initiez-vous à la bureautique, à la conception de contenu, à l'utilisation des plateformes digitales pour votre vie professionnelle.</p>
-    <img src="informatique_africain.jpg.jpg" alt="Informatique et numérique">
-  </section>
+    <section class="formation">
+      <h2>3. Services numériques et informatiques</h2>
+      <p>Maîtrisez les outils bureautiques, la création de contenus, et les services en ligne. Acquérez les compétences pour le télétravail, le freelancing et la gestion digitale. Certification immédiate après la formation. Suivi personnalisé assuré.</p>
+      <img src="informatique_africain.jpg.jpg" alt="Informatique">
+    </section>
 
-  <section class="formation">
-    <h2>4. Assistant en ligne</h2>
-    <p>Devenez un assistant en ligne efficace et professionnel. Formation pratique sur les outils, la communication client et la gestion des tâches à distance.</p>
-    <img src="assistance_africain.jpg" alt="Assistant en ligne">
-  </section>
+    <section class="formation">
+      <h2>4. Assistant en ligne</h2>
+      <p>Formez-vous pour assister à distance entreprises et particuliers dans la gestion de tâches, emails, agendas, etc. Une opportunité croissante dans l’univers du travail en ligne. Certification immédiate après la formation. Suivi personnalisé assuré.</p>
+      <img src="assistance_africain.jpg" alt="Assistant en ligne">
+    </section>
 
-  <section class="formation">
-    <h2>5. Management des petites entreprises</h2>
-    <p>Apprenez à planifier, gérer et développer une petite entreprise. Outils de gestion, marketing local et stratégies de croissance sont au programme.</p>
-    <img src="management_africain.jpg" alt="Management des PME">
-  </section>
+    <section class="formation">
+      <h2>5. Management des petites entreprises</h2>
+      <p>Apprenez à structurer, gérer et développer une petite entreprise. Planification, gestion financière et marketing simplifié. Certification immédiate après la formation. Suivi personnalisé assuré.</p>
+      <img src="management_africain.jpg" alt="Management">
+    </section>
 
-  <section class="formation">
-    <h2>6. Création de contenus et marketing numérique</h2>
-    <p>Créez des visuels, vidéos, textes et contenus engageants pour les réseaux sociaux et les sites web. Formation adaptée aux débutants comme aux passionnés.</p>
-    <img src="numerique_africain.jpg" alt="Création de contenus">
-  </section>
+    <section class="formation">
+      <h2>6. Compétences entrepreneuriales et numériques</h2>
+      <p>Libérez votre potentiel entrepreneurial avec des modules sur la création d’entreprise, la vente en ligne et les services digitaux. Certification immédiate après la formation. Suivi personnalisé assuré.</p>
+      <img src="numerique_africain.jpg" alt="Entrepreneuriat numérique">
+    </section>
 
-  <section class="formation">
-    <h2>7. Gestion et leadership personnel</h2>
-    <p>Développez des qualités de leadership, apprenez à gérer des projets et à travailler en équipe de manière responsable et éthique.</p>
-    <img src="gestion_africain.jpg" alt="Leadership et gestion">
-  </section>
+    <section class="formation" id="contact">
+      <h2>Inscription et Suivi</h2>
+      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeXMjvETjLUCoxnBhV3FA09-42dNh2Aghk0DIeaBrPD2BBZaA/viewform" target="_blank">Formulaire d’inscription</a>
+      <a class="btn" href="https://wa.me/243999047524" target="_blank">WhatsApp Direct</a>
+      <a class="btn" href="programme_complet_FRANS.pdf" target="_blank" download>Télécharger le programme complet</a>
+    </section>
+  </main>
 
-  <div class="button-container">
-    <a href="programme_complet_FRANS.pdf" download>Télécharger le programme complet</a>
-    <a href="https://wa.me/243999047524" target="_blank">Contact WhatsApp</a>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXMjvETjLUCoxnBhV3FA09-42dNh2Aghk0DIeaBrPD2BBZaA/viewform" target="_blank">Inscription gratuite</a>
-  </div>
-
-</main>
+  <footer>
+    &copy; 2025 FRANS COMPANY – Tous droits réservés
+  </footer>
 
 </body>
 </html>
